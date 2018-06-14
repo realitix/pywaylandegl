@@ -3,13 +3,14 @@
 This module provides access to the `wayland-egl` library from Python.
 
 To use EGL with Wayland, you have to call this library, so here is the wrapper.
-This library exposes the following function:
+
+This library exposes the following functions:
 
 ```python
 def wl_egl_window_create(wl_surface, width, height):
     """Create the wayland-egl window
 
-    Args: 
+    Args:
         wl_surface (ptr): The wayland surface. You can get it with the
                           pywayland library.
         width (int): Window width
