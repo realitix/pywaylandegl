@@ -1,4 +1,3 @@
-from distutils.command.build import build
 from setuptools import setup
 from os import path
 import platform
